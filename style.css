@@ -1,5 +1,6 @@
 body {
-    font-family:Georgia !important;
+    font-family:Georgia !important; 
+    background-color: #F0F0F0 !important;
 }
 .container img {
     max-width: 100%;
@@ -19,4 +20,18 @@ body {
     background-color: #23a79d !important;  
     color: white !important;
     font-weight: bold !important;
+}
+
+.green {
+    color: #23a79d;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+#box {
+    background-color: white !important;
 }
