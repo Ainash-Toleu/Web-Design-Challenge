@@ -1,6 +1,6 @@
 body {
-    font-family:Georgia !important; 
-    background-color: #F0F0F0 !important;
+    font-family:Georgia; 
+    
 }
 .container img {
     max-width: 100%;
@@ -16,11 +16,7 @@ body {
     font-weight: bold;
 }
 
-.navbar-brand {
-    background-color: #23a79d !important;  
-    color: white !important;
-    font-weight: bold !important;
-}
+
 
 .green {
     color: #23a79d;
@@ -28,10 +24,28 @@ body {
     text-align: center; 
 }
 
-.navbar {
-    background-color: white !important;
-}
+
 
 #box {
     background-color: white !important;
-}
+}  
+
+.navbar a.navbar-brand {
+    color:white;
+    font-weight: bold;
+    background-color: #23a79d;
+    padding: 9px 18px;
+    font-size:20px
+  }
+  @media (max-width: 768px) {
+    nav.navbar {
+      background: #23a79d;
+    }
+  }
+  .navbar a.nav-link {
+      font-size:12px;
+    }
+
+    .navbar a.dropdown-item {
+        font-size:12px;
+      }  
