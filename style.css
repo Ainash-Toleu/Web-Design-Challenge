@@ -41,6 +41,10 @@ body {
     nav.navbar {
       background: #23a79d;
     }
+    .navbar-collapse {
+        background-color: white;
+    }
+    
   }
   .navbar a.nav-link {
       font-size:12px;
@@ -48,4 +52,6 @@ body {
 
     .navbar a.dropdown-item {
         font-size:12px;
-      }  
+    }  
+
+    
