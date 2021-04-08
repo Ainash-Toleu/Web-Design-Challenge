@@ -1,0 +1,22 @@
+body {
+    font-family:Georgia !important;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+#header {
+    color: #23a79d;
+    font-weight: bold;
+}
+
+#header2 {
+    color: #23a79d;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    background-color: #23a79d !important;  
+    color: white !important;
+    font-weight: bold !important;
+}
