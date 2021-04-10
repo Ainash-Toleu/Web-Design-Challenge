@@ -8,16 +8,21 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-  <div class ="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+    <nav class="navbar navbar-expand-md navbar-light">
+
       <a class="navbar-brand" href="index.html">Latitude</a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Plots
@@ -28,56 +33,60 @@
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind.html">Wind Speed</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="comparison.html">Comparison</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="data.html">Data</a>
           </li>
+
         </ul>
       </div>
+
     </nav>
 
-    
-    <div class="row" id ="box">
-      
-  
-      <div class="col col-12 col-md-12">
-        <h3 id="header2">Comparison: Latitude vs X</h3>
-        <hr>
-        <p>Click any plot to get an in-depth analysis.</p>
-        <div class="row">
-          <div class="col col-12 col-md-6">
-            <p class = "green">vs. Max Temperature</p>
-            <a target="_blank" href="temperature.html">
-              <img src="Resources/assets/images/Fig1.png" alt="Temperature Map">
-            </a>
-          </div>
-          <div class="col col-12 col-md-6">
-            <p class = "green">vs. Humidity</p>
-              <a target="_blank" href="humidity.html">
-                <img src="Resources/assets/images/Fig2.png" alt="Humidity Map">
-              </a>
-            </div>
+  <div class ="container"> 
+    <br>
+
+    <div class="col col-12 col-md-12" id="box3">
+      <h3 id="header2">Comparison: Latitude vs X</h3>
+      <hr>
+      <p>Click any plot to get an in-depth analysis.</p>
+
+      <div class="row">
+       
+        <div class="col col-12 col-md-6">
+          <p class = "green">vs. Max Temperature</p>
+          <a href="temperature.html">
+            <img src="Resources/assets/images/Fig1.png" alt="Temperature Map">
+          </a>
         </div>
-        <div class="row">
-          <div class="col col-12 col-md-6">
-            <p class = "green">vs. Cloudiness</p>
-            <a href="cloudiness.html">
-              <img target="_blank" src="Resources/assets/images/Fig3.png" alt="Cloudy Map">
+        
+        <div class="col col-12 col-md-6">
+          <p class = "green">vs. Humidity</p>
+            <a  href="humidity.html">
+              <img src="Resources/assets/images/Fig2.png" alt="Humidity Map">
             </a>
           </div>
-          <div class="col col-12 col-md-6">
-            <p class = "green">vs. Wind Speed</p>
-            <a target="_blank" href="wind.html">
-              <img src="Resources/assets/images/Fig4.png" alt="Wind Map">
-            </a>
-          </div>
+
+        <div class="col col-12 col-md-6">
+          <p class = "green">vs. Cloudiness</p>
+          <a href="cloudiness.html">
+            <img src="Resources/assets/images/Fig3.png" alt="Cloudy Map">
+          </a>
+        </div>
+     
+        <div class="col col-12 col-md-6">
+          <p class = "green">vs. Wind Speed</p>
+          <a  href="wind.html">
+            <img src="Resources/assets/images/Fig4.png" alt="Wind Map">
+          </a>
         </div>
       </div>
-  
-    </div>  
-  
+    </div>
+
 
   </div>
 

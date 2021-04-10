@@ -48,6 +48,11 @@ body {
     border: 1px solid black;  
 } 
 
+#box3 {
+    background-color: white;
+    padding: 30px;
+} 
+
 .navbar {
     background: white;
 }
