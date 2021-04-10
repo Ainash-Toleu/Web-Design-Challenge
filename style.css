@@ -1,11 +1,19 @@
 body {
     font-family:Georgia; 
+    background-color: #F0F0F0;
     
 }
 .container img {
     max-width: 100%;
     height: auto;
 }
+
+#landingImg {
+    width: 40%;
+    float: left;
+    height: 50%;
+}
+
 #header {
     color: #23a79d;
     font-weight: bold;
@@ -29,6 +37,9 @@ body {
 #box {
     background-color: white !important;
 }  
+.navbar {
+    background: white;
+}
 
 .navbar a.navbar-brand {
     color:white;
@@ -54,4 +65,4 @@ body {
         font-size:12px;
     }  
 
-    
+   
